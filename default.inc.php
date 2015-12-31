@@ -30,7 +30,7 @@ if(!defined('IN_RATING')){
 <input type="submit" value="submit" />
 </form>
 </td><td>
-<p><?php echo "avg: $avg Ratenum: $ratenum";?></p></td></tr></tbody></table>
+<p><?php echo lang('avg_tip').": $avg ".lang('ratenum_tip').": $ratenum";?></p></td></tr></tbody></table>
 <script src="jquery.barrating.min.js"></script>
 <script type="text/javascript">
    $(function() {

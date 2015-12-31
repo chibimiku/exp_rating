@@ -4,6 +4,7 @@ define('IN_RATING', true);
 
 require('meekrodb.2.3.class.php');
 require('./conf/conf.inc.php');
+require('./lang_zh.inc.php');
 
 switch($_GET['action']){
 	
